@@ -45,7 +45,7 @@ Random arrays are generated
 Sorting algorithms are applied
 Searching is performed on sorted arrays
 Execution time is measured using System.nanoTime()
-📊 Results (Example Output)
+ Results (Example Output)
 Array Size	Bubble Sort (ns)	Quick Sort (ns)	Binary Search (ns)
 10	20000	5000	1000
 100	500000	20000	2000
@@ -53,13 +53,13 @@ Array Size	Bubble Sort (ns)	Quick Sort (ns)	Binary Search (ns)
 
 (Actual results may vary depending on system performance)
 
-📈 Analysis
+ Analysis
 Quick Sort is faster than Bubble Sort because it uses divide-and-conquer strategy and has better average complexity O(n log n).
 Bubble Sort is slower, especially for large arrays, due to O(n²) complexity.
 As array size increases, execution time increases significantly, especially for Bubble Sort.
 Binary Search is very efficient with O(log n), much faster than linear approaches.
 Binary Search requires a sorted array because it eliminates half of the data each step.
-🖼️ Screenshots
+Screenshots
 
 
 ![1](../Docs/Screenshots/Output1.png)
